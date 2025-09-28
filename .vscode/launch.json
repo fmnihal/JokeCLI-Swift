@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JokeCLI}",
+            "name": "Debug JokeCLI",
+            "program": "${workspaceFolder:JokeCLI}/.build/debug/JokeCLI",
+            "preLaunchTask": "swift: Build Debug JokeCLI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JokeCLI}",
+            "name": "Release JokeCLI",
+            "program": "${workspaceFolder:JokeCLI}/.build/release/JokeCLI",
+            "preLaunchTask": "swift: Build Release JokeCLI"
+        }
+    ]
+}
